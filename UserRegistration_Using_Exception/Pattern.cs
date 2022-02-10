@@ -27,6 +27,17 @@ namespace UserRegistration_Using_Exception
             return Regex.IsMatch(input, EMAIL);
         }
         /////////////////////////////////////////
-        
+        public string MOBILENUMBER = "^[0-9]{2}[ ][1-9][0-9]{9}$";
+        public bool ValidateMobileNumber(string input)
+        {
+            return Regex.IsMatch(input, MOBILENUMBER);
+        }
+        ////////////////////////////////////////
+        public static string PASSWORD = "^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*])[A-Za-z0-9!@#$%^&*]{8,20}$";
+        public bool ValidatePassword(string input)
+        {
+            return Regex.IsMatch(input, PASSWORD);
+        }
+
     }
 }
