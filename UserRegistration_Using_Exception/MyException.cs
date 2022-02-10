@@ -18,7 +18,7 @@ namespace UserRegistration_Using_Exception
             
             Console.WriteLine("Choose what to Enter:");
             Console.WriteLine("-------------------------");
-            Console.WriteLine("1. First Name.\n2. Last Name.\n3. EmailId.");
+            Console.WriteLine("1. First Name.\n2. Last Name.\n3. EmailId.\n4. PhoneNumber.");
             Console.WriteLine("-------------------------");
 
             int input = Convert.ToInt32(Console.ReadLine());
@@ -72,6 +72,30 @@ namespace UserRegistration_Using_Exception
                             throw new MyException("Must contain Alphabet and Numeric Combination only.\nEnding with proper domain address e.g. '@gmail.com'\n====================");
                         }
                     }
+                    catch (MyException e)
+                    {
+                        Console.WriteLine("====================\nInvalid Input\n====================");
+                        Console.WriteLine(e.Message);
+                    }
+                    break;
+                case 4:
+                    try
+                    {
+                        Console.WriteLine("Enter your Phone Number:");
+                        Pattern mobilenumber = new Pattern();
+                        bool resultmobilenumber = mobilenumber.ValidateMobileNumber(Console.ReadLine());
+                        Console.WriteLine(resultmobilenumber);
+                        if (resultmobilenumber == false)
+                        {
+                            throw new MyException("Must contain integers only. Starting with '91' and space and having exact 10 digits as Phone Number.\n====================");
+                        }
+                    }
+                    catch (MyException e)
+                    {
+                        Console.WriteLine("====================\nInvalid Input\n====================");
+                        Console.WriteLine(e.Message);
+                    }
+                    break;
                     catch (MyException e)
                     {
                         Console.WriteLine("====================\nInvalid Input\n====================");
