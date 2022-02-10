@@ -20,5 +20,13 @@ namespace UserRegistration_Using_Exception
         {
             return Regex.IsMatch(input, LASTNAME);
         }
+        //////////////////////////////////////////
+        public string EMAIL = "^[a-z0-9A-Z]+([._+-][a-z0-9A-Z]+)*[@][a-z0-9A-Z]+[.][a-zA-Z]{2,3}(.[a-zA-Z]{2})?$";
+        public bool ValidateEmail(string input)
+        {
+            return Regex.IsMatch(input, EMAIL);
+        }
+        /////////////////////////////////////////
+        
     }
 }
