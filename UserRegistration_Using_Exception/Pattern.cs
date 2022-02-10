@@ -14,6 +14,11 @@ namespace UserRegistration_Using_Exception
         {
             return Regex.IsMatch(input, FIRSTNAME);
         }
-       
+        ///////////////////////////////////////////
+        public string LASTNAME = "^[A-Z][a-z]{2,}$";
+        public bool ValidateLastName(string input)
+        {
+            return Regex.IsMatch(input, LASTNAME);
+        }
     }
 }
