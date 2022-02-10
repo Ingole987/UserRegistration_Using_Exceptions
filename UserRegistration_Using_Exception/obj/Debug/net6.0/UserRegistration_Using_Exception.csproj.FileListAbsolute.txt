@@ -1,0 +1,15 @@
+C:\Users\prati\source\repos\UserRegistration_Using_Exception\UserRegistration_Using_Exception\obj\Debug\net6.0\UserRegistration_Using_Exception.csproj.AssemblyReference.cache
+C:\Users\prati\source\repos\UserRegistration_Using_Exception\UserRegistration_Using_Exception\obj\Debug\net6.0\UserRegistration_Using_Exception.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prati\source\repos\UserRegistration_Using_Exception\UserRegistration_Using_Exception\obj\Debug\net6.0\UserRegistration_Using_Exception.AssemblyInfoInputs.cache
+C:\Users\prati\source\repos\UserRegistration_Using_Exception\UserRegistration_Using_Exception\obj\Debug\net6.0\UserRegistration_Using_Exception.AssemblyInfo.cs
+C:\Users\prati\source\repos\UserRegistration_Using_Exception\UserRegistration_Using_Exception\obj\Debug\net6.0\UserRegistration_Using_Exception.csproj.CoreCompileInputs.cache
+C:\Users\prati\source\repos\UserRegistration_Using_Exception\UserRegistration_Using_Exception\bin\Debug\net6.0\UserRegistration_Using_Exception.exe
+C:\Users\prati\source\repos\UserRegistration_Using_Exception\UserRegistration_Using_Exception\bin\Debug\net6.0\UserRegistration_Using_Exception.deps.json
+C:\Users\prati\source\repos\UserRegistration_Using_Exception\UserRegistration_Using_Exception\bin\Debug\net6.0\UserRegistration_Using_Exception.runtimeconfig.json
+C:\Users\prati\source\repos\UserRegistration_Using_Exception\UserRegistration_Using_Exception\bin\Debug\net6.0\UserRegistration_Using_Exception.dll
+C:\Users\prati\source\repos\UserRegistration_Using_Exception\UserRegistration_Using_Exception\bin\Debug\net6.0\ref\UserRegistration_Using_Exception.dll
+C:\Users\prati\source\repos\UserRegistration_Using_Exception\UserRegistration_Using_Exception\bin\Debug\net6.0\UserRegistration_Using_Exception.pdb
+C:\Users\prati\source\repos\UserRegistration_Using_Exception\UserRegistration_Using_Exception\obj\Debug\net6.0\UserRegistration_Using_Exception.dll
+C:\Users\prati\source\repos\UserRegistration_Using_Exception\UserRegistration_Using_Exception\obj\Debug\net6.0\ref\UserRegistration_Using_Exception.dll
+C:\Users\prati\source\repos\UserRegistration_Using_Exception\UserRegistration_Using_Exception\obj\Debug\net6.0\UserRegistration_Using_Exception.pdb
+C:\Users\prati\source\repos\UserRegistration_Using_Exception\UserRegistration_Using_Exception\obj\Debug\net6.0\UserRegistration_Using_Exception.genruntimeconfig.cache
